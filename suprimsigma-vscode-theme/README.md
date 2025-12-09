@@ -1,4 +1,4 @@
-# vscode-theme README
+# suprimsigma-vscode-theme README
 
 ## Working with Markdown
 

@@ -1,0 +1,31 @@
+{
+  "name": "suprimsigma-vscode-theme",
+  "displayName": "suprimSigma-vscode-theme",
+  "description": "Sigma",
+  "version": "0.0.1",
+  "publisher": "AlexPrevitali637",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "SuprimSigma VSCode Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SuprimSigma VSCode Theme-color-theme.json"
+      }
+    ]
+  }
+}
