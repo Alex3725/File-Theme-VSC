@@ -24,7 +24,7 @@
       {
         "label": "SuprimSigma VSCode Theme",
         "uiTheme": "vs-dark",
-        "path": "./suprimsigma-vscode-theme/SuprimSigma VSCode Theme-color-theme.json"
+        "path": "./suprimsigma-vscode-theme/themes/SuprimSigma VSCode Theme-color-theme.json"
       }
     ]
   }
