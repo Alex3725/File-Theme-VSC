@@ -173,22 +173,53 @@
 			"settings": {
 				"foreground": "#FF2A9D"
 			}
+		},
+		// ----------------- Regole aggiuntive per JSON -----------------
+		{
+			"scope": [
+				"string.key.json"
+			],
+			"settings": {
+				"foreground": "#32CB32",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"string.value.json"
+			],
+			"settings": {
+				"foreground": "#32CB32"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.json"
+			],
+			"settings": {
+				"foreground": "#FFD066",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.boolean.json"
+			],
+			"settings": {
+				"foreground": "#BA5AFF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.key-value.json",
+				"punctuation.separator.array.json",
+				"punctuation.definition.array.json",
+				"punctuation.definition.object.json"
+			],
+			"settings": {
+				"foreground": "#32B9FF"
+			}
 		}
-	],
-	"semanticTokenColors": {
-		"enabled": true,
-		"rules": {
-			"variable.property": "#FF2A9D", // proprietà membri classe / this.proprieta
-			"variable.other.property": "#FF2A9D", // fallback per JS/TS
-			"variable.parameter": "#B38F00", // parametri
-			"variable": "#F1F1F1", // variabili generiche
-			"this": "#FF2A9D", // 'this' stesso
-			"class": "#3299FF", // classi/nomi tipi
-			"function": "#6EB8FF", // funzioni/metodi
-			"keyword": "#C173FF", // keywords
-			"string": "#32CB32", // stringhe e apici/virgole
-			"number": "#FFD066", // numeri
-			"boolean": "#BA5AFF" // booleani
-		}
-	}
+	]
 }
