@@ -2,7 +2,7 @@
   "name": "suprimsigma-vscode-theme",
   "displayName": "suprimSigma VSCode Theme",
   "description": "Tema dark per VS Code con palette personalizzata",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "AlexPrevitali637",
   "engines": {
     "vscode": "^1.106.1"
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexPrevitali637/File-Theme-VSC.git"
+    "url": "https://github.com/AlexPrevitali637/File-Theme-VSC/suprimSigma-vscode-theme"
   },
   "contributes": {
     "themes": [
