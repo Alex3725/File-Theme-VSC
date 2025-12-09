@@ -107,9 +107,11 @@
 		"statusBar.noFolderBackground": "#2D2640",
 		"statusBarItem.activeBackground": "#2A243A",
 		"statusBarItem.hoverBackground": "#1E1A2A",
-		// ========== TERMINAL ==========
+		// ========== TERMINAL ========== 
 		"terminal.background": "#16131F",
-		"terminal.foreground": "#C5C9D1",
+		"terminal.foreground": "#E0E4EB", // colore del testo di default chiaro su sfondo scuro
+		"terminalCursor.foreground": "#A070FF", // colore del cursore
+		// Colori standard ANSI
 		"terminal.ansiBlack": "#1A1625",
 		"terminal.ansiRed": "#FF5F87",
 		"terminal.ansiGreen": "#32CB32",
@@ -117,7 +119,8 @@
 		"terminal.ansiBlue": "#6EB8FF",
 		"terminal.ansiMagenta": "#C173FF",
 		"terminal.ansiCyan": "#32B9FF",
-		"terminal.ansiWhite": "#C5C9D1",
+		"terminal.ansiWhite": "#E0E4EB",
+		// Colori bright ANSI
 		"terminal.ansiBrightBlack": "#6A6482",
 		"terminal.ansiBrightRed": "#FF8AA8",
 		"terminal.ansiBrightGreen": "#5AE65A",
@@ -125,7 +128,7 @@
 		"terminal.ansiBrightBlue": "#99D4FF",
 		"terminal.ansiBrightMagenta": "#D89FFF",
 		"terminal.ansiBrightCyan": "#6DD4FF",
-		"terminal.ansiBrightWhite": "#E0E4EB",
+		"terminal.ansiBrightWhite": "#FFFFFF",
 		// ========== PANEL ==========
 		"panel.background": "#16131F",
 		"panel.border": "#00000000",
